@@ -219,9 +219,17 @@ div.bl-panel-items > div > div {
 	padding-bottom: 15px;
 	font-size: 1.7em;
 	line-height: 1.8;
+	text-decoration: underline;
 }
 
 .bl-content h2 {
+	font-size: 3em;
+	font-weight: 300;
+	margin: 0 0 20px 0;
+	text-decoration: underline;
+}
+
+.bl-content h1 {
 	font-size: 3em;
 	font-weight: 300;
 	margin: 0 0 20px 0;
