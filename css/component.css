@@ -142,17 +142,28 @@ a:hover {
 }
 
 .bl-box h2 {
+	text-align: center;
+	margin: 0;
+	position: center;
+	width: 100%;
+	font-size: 1.8em;
+	letter-spacing: 2px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.bl-box2 h2 {
 	text-align: left;
-	margin-top: 0px;
-	margin-bottom: 100px;
-	margin-left: 0px;
-	margin-right: 370px;
-	position: left;
+	/*margin-top: 0px;*/
+	/*margin-bottom: 100px;*/
+	margin-right: 70%;
+	margin-left: 5%;
+	position: center;
 	width: 30%;
 	font-size: 1.8em;
 	letter-spacing: 2px;
 	font-weight: 700;
 	text-transform: uppercase;
+	line-height: 2em;
 }
 
 .bl-icon {
