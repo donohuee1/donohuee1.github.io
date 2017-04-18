@@ -122,7 +122,7 @@ a:hover {
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    display: flex;
+    /*display: flex;*/
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     /*flex-direction: row;*/
@@ -142,12 +142,13 @@ a:hover {
 }
 
 .bl-box h2 {
-	text-align: center;
-	margin: 0;
-	position: relative;
-	/*top: 100px;
-	padding: 20px;*/
-	width: 100%;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 100px;
+	margin-left: 0px;
+	margin-right: 370px;
+	position: left;
+	width: 30%;
 	font-size: 1.8em;
 	letter-spacing: 2px;
 	font-weight: 700;
