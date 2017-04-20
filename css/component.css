@@ -219,7 +219,7 @@ div.bl-panel-items > div > div {
 	padding-bottom: 15px;
 	font-size: 1.7em;
 	line-height: 1.8;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 
 .bl-content h2 {
@@ -600,6 +600,7 @@ section.bl-expand .bl-icon-close {
 .social-network.yelp{ background-position: -1840px 0}
 .social-network.youtube{ background-position: -1880px 0}
 .social-network.zerply{ background-position: -1920px 0}
+/*.social-network.instagram{ background-position: -440px 0}*/
 
 /* mouseover */
 .social-network.aim:hover,.active .social-network.aim{ background-position: 0 -40px}
@@ -651,6 +652,7 @@ section.bl-expand .bl-icon-close {
 .social-network.yelp:hover,.active .social-network.yelp{ background-position: -1840px -40px}
 .social-network.youtube:hover,.active .social-network.youtube{ background-position: -1880px -40px}
 .social-network.zerply:hover,.active .social-network.zerply{ background-position: -1920px -40px}
+/*.social-network.instagram:hover,.active .social-network.instagram{ background-position: -440px -40px}*/
 
 @media screen and (max-width: 46.5em) {
 	.bl-content,
