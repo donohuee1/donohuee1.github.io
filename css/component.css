@@ -84,7 +84,7 @@ a:hover {
 .bl-main > section:nth-child(2) {
 	top: 0;
 	left: 50%;
-	background: url('../images/water-green.gif') no-repeat;
+	background: url('../images/green-4.jpg') no-repeat;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -94,7 +94,7 @@ a:hover {
 .bl-main > section:nth-child(3) {
 	top: 50%;
 	left: 0;
-	background: url('../images/pink-purple-water.jpg ') no-repeat;
+	background: url('../images/blue-water.png') no-repeat;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -104,7 +104,7 @@ a:hover {
 .bl-main > section:nth-child(4) {
 	top: 50%;
 	left: 50%;
-	background: url('../images/purple-blue.jpg') no-repeat;
+	background: url('../images/pink-purple-water.jpg') no-repeat;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -286,6 +286,15 @@ div.bl-panel-items > div > div {
 	margin: 0;
 }
 
+.span4 p {
+	font-size: 1.2em;
+	font-family: fantasy;
+}
+
+.span4 h3 {
+	font-family: fantasy;
+}
+
 
 /* --------------------------------------------------------	*/
 /*  Progress Bar  */
@@ -334,7 +343,7 @@ div.bl-panel-items > div > div {
 
 /* Panel Items */
 
-.projectImage {
+/*.projectImage {
 	position: relative;
 	float: left;
 	width:  100px;
@@ -342,7 +351,8 @@ div.bl-panel-items > div > div {
 	background-position: 50% 50%;
 	background-repeat:   no-repeat;
 	background-size:     cover;
-}
+	overflow: hidden;
+}*/
 
 .tweak {
 	padding-right: 30px;
@@ -478,16 +488,16 @@ div.bl-panel-items > div.bl-hide-current-work {
 /* Section background colors */
 
 .bl-main > section:first-child.bl-expand {
-	background: #31095a;
+	background: url('../images/20170420-D40B1326.jpg') no-repeat;
 }
 .bl-main > section:nth-child(2).bl-expand {
-	background: #2c2c2c;
+	background: url('../images/green-4.jpg') no-repeat;
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background: #bfbfbf;
+	background: url('../images/blue-water.png') no-repeat;
 }
 .bl-main > section:nth-child(4).bl-expand {
-	background: #ee6557;
+	background: url('../images/pink-purple-water.jpg') no-repeat;
 }
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
