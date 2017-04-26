@@ -8,6 +8,14 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+ .span12 p {
+   font-size: 1.3em;
+ }
+
+ /*.span12 h2 {
+   color: #c9ab8b;
+ }*/
+
 .clearfix {
   *zoom: 1;
 }

@@ -334,6 +334,16 @@ div.bl-panel-items > div > div {
 
 /* Panel Items */
 
+.projectImage {
+	position: relative;
+	float: left;
+	width:  100px;
+	height: 100px;
+	background-position: 50% 50%;
+	background-repeat:   no-repeat;
+	background-size:     cover;
+}
+
 .tweak {
 	padding-right: 30px;
 }
@@ -468,7 +478,7 @@ div.bl-panel-items > div.bl-hide-current-work {
 /* Section background colors */
 
 .bl-main > section:first-child.bl-expand {
-	background: #79648d;
+	background: #31095a;
 }
 .bl-main > section:nth-child(2).bl-expand {
 	background: #2c2c2c;
