@@ -73,7 +73,7 @@ a:hover {
 .bl-main > section:first-child {
 	top: 0;
 	left: 0;
-	background: url('../images/GA-SM-105-blue.jpg') no-repeat;
+	background: url('../images/20170420-D40B1326.jpg') no-repeat;
 	/*background-color: rgb(255,105,180)*/
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -84,7 +84,7 @@ a:hover {
 .bl-main > section:nth-child(2) {
 	top: 0;
 	left: 50%;
-	background: url('../images/back3.jpg') no-repeat;
+	background: url('../images/water-green.gif') no-repeat;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -94,7 +94,7 @@ a:hover {
 .bl-main > section:nth-child(3) {
 	top: 50%;
 	left: 0;
-	background: url('../images/back5.jpg ') no-repeat;
+	background: url('../images/pink-purple-water.jpg ') no-repeat;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -104,7 +104,7 @@ a:hover {
 .bl-main > section:nth-child(4) {
 	top: 50%;
 	left: 50%;
-	background: url('../images/back4.jpg') no-repeat;
+	background: url('../images/purple-blue.jpg') no-repeat;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -468,16 +468,16 @@ div.bl-panel-items > div.bl-hide-current-work {
 /* Section background colors */
 
 .bl-main > section:first-child.bl-expand {
-	background: #144057;
+	background: #79648d;
 }
 .bl-main > section:nth-child(2).bl-expand {
 	background: #2c2c2c;
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background: #ee6557;
+	background: #bfbfbf;
 }
 .bl-main > section:nth-child(4).bl-expand {
-	background: #bfbfbf;
+	background: #ee6557;
 }
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
