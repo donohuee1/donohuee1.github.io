@@ -166,6 +166,10 @@ a:hover {
 	line-height: 2em;
 }
 
+/*.bl-box3 {
+	background: url('../images/blue-water copy.png') no-repeat;
+}*/
+
 .bl-icon {
 	font-family: 'icomoon';
 	speak: none;
@@ -494,7 +498,7 @@ div.bl-panel-items > div.bl-hide-current-work {
 	background: url('../images/green-4.jpg') no-repeat;
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background: url('../images/blue-water.png') no-repeat;
+	background: url('../images/blue-3.png') no-repeat;
 }
 .bl-main > section:nth-child(4).bl-expand {
 	background: url('../images/pink-purple-water.jpg') no-repeat;
