@@ -234,11 +234,20 @@ div.bl-panel-items > div > div {
 }
 
 .bl-content h1 {
-	font-size: 3em;
+	font-size: 2.8em;
 	font-weight: 300;
 	margin: 0 0 20px 0;
 	text-decoration: underline;
+	color: black;
+	font-family: fantasy;
 }
+
+.bl-content h3 {
+	color: black;
+	font-family: fantasy;
+}
+
+
 
 .bl-content article {
 	padding: 20px 40px 20px 0px;
@@ -293,6 +302,7 @@ div.bl-panel-items > div > div {
 .span4 p {
 	font-size: 1.2em;
 	font-family: fantasy;
+	color: black;
 }
 
 .span4 h3 {
