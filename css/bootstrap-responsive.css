@@ -10,11 +10,12 @@
 
  .span12 p {
    font-size: 1.3em;
+   color: black;
  }
 
- /*.span12 h2 {
-   color: #c9ab8b;
- }*/
+ .span12two h2 {
+   color: black;
+ }
 
 .clearfix {
   *zoom: 1;
