@@ -8,14 +8,36 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
- .span12 p {
-   font-size: 1.3em;
+ .span3 h3 {
    color: black;
  }
 
- .span12two h2 {
+ .span3 {
    color: black;
  }
+
+ .span12 p {
+   font-size: 1.3em;
+   color: black;
+   font-family: fantasy;
+ }
+
+.span12 h4 {
+   color: black;
+   font-family: fantasy;
+   /*text-decoration: underline;*/
+   font-size: 3em;
+ }
+
+ .span12 h2 {
+    font-family: fantasy;
+    text-decoration: underline;
+    color: black;
+  }
+
+  .span12two {
+    text-decoration: underline;
+  }
 
 .clearfix {
   *zoom: 1;

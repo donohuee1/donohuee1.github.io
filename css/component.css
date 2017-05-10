@@ -64,6 +64,13 @@ a.button {
 	text-decoration: none;
 }
 
+a.LinkedInLink {
+	font-size: 3em;
+	font-family: fantasy;
+	text-decoration: underline;
+	color: black;
+}
+
 .button:hover {
 	background-color: white;
 	color: black;
@@ -123,6 +130,10 @@ a.button {
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+}
+
+.resumepdf {
+image: url('../images/Betsy_Donohue_RESUME_TEMPLATE_WomenHackEvent.pdf') no-repeat;
 }
 
 .bl-box {
@@ -245,6 +256,7 @@ div.bl-panel-items > div > div {
 	font-weight: 300;
 	margin: 0 0 20px 0;
 	text-decoration: underline;
+	color: black;
 }
 
 .bl-content h1 {
@@ -346,6 +358,7 @@ div.bl-panel-items > div > div {
   text-shadow: none !important;
   text-align:left !important;
   padding-left:30px !important;
+	font-family: fantasy;
 }
 
 /* --------------------------------------------------------	*/
@@ -356,12 +369,18 @@ div.bl-panel-items > div > div {
   font-size:16px;
   color:#c9ab8b;
   padding-bottom:10px;
+	font-family: fantasy;
 }
 
 .about-us i{
   font-size:22px;
   color:#ffffff;
   padding-right:10px;
+	font-family: fantasy;
+}
+
+.about-us li {
+	font-family: fantasy;
 }
 
 
@@ -381,6 +400,19 @@ div.bl-panel-items > div > div {
 	background-size:     cover;
 	overflow: hidden;
 }*/
+
+.resume {
+	position: relative;
+	display: block;
+	/*float: left;*/
+	width:  80%;
+	height: 80%;
+	background-position: 50% 50%;
+	background-repeat:   no-repeat;
+	background-size:     cover;
+	overflow: hidden;
+	padding: 10px;
+}
 
 .tweak {
 	padding-right: 30px;
@@ -424,7 +456,7 @@ div.bl-panel-items {
 }
 
 div.bl-panel-items > div {
-	background: #16a085;
+	background: url('../images/green-4.jpg') no-repeat;
 	z-index: 0;
 	opacity: 0;
 	-webkit-transform: translateY(0);
@@ -648,7 +680,7 @@ section.bl-expand .bl-icon-close {
 .social-network.yelp{ background-position: -1840px 0}
 .social-network.youtube{ background-position: -1880px 0}
 .social-network.zerply{ background-position: -1920px 0}
-/*.social-network.instagram{ background-position: -440px 0}*/
+
 
 /* mouseover */
 .social-network.aim:hover,.active .social-network.aim{ background-position: 0 -40px}
@@ -700,7 +732,7 @@ section.bl-expand .bl-icon-close {
 .social-network.yelp:hover,.active .social-network.yelp{ background-position: -1840px -40px}
 .social-network.youtube:hover,.active .social-network.youtube{ background-position: -1880px -40px}
 .social-network.zerply:hover,.active .social-network.zerply{ background-position: -1920px -40px}
-/*.social-network.instagram:hover,.active .social-network.instagram{ background-position: -440px -40px}*/
+.icon-linkedin-sign,.active .icon-linkedin-sign{ background-position: -1880px -40px}
 
 @media screen and (max-width: 46.5em) {
 	.bl-content,
